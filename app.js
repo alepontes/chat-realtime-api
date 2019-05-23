@@ -57,3 +57,11 @@ app.delete('/', (req, res, next) => {
 
 
 app.listen(4001, () => console.log("Rodando"))
+
+
+// function juros(p, n, porc) {
+// 	n = n || 30
+// 	const f = p * Math.pow((1 + 0.01), n) 
+// 	console.log("Total: " + f)
+// 	console.log("Lucro: " + (f - p))
+// }
