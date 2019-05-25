@@ -60,8 +60,9 @@ app.listen(4001, () => console.log("Rodando"))
 
 
 // function juros(p, n, porc) {
-// 	n = n || 30
-// 	const f = p * Math.pow((1 + 0.01), n) 
-// 	console.log("Total: " + f)
-// 	console.log("Lucro: " + (f - p))
+//     n = n || 30
+//     porc = porc ? porc / 100 : 0.01;
+//     const f = p * Math.pow((1 + porc), n)
+//     console.log("Total: " + parseInt(f))
+//     console.log("Lucro: " + parseInt(f - p))
 // }

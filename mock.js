@@ -29,8 +29,21 @@ const account = {
         if (!conta)
             return callback("Conta Inexistente", null)
 
+        // Criar Token
+
         callback(false, conta.token)
 
+    },
+    valid: (token, callback) => {
+
+
+        contas.find(item => item.token == token)
+
+        if (!conta)
+            return callback("Erro", null)
+
+
+        callback(false, true)
     },
 }
 
